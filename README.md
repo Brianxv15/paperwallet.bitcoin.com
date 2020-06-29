@@ -1,8 +1,20 @@
-# Bitcoin.com Paper Wallet
+DO NOT RUN GENERATOR ONLINE
 
-The Bitcoin.com Paper Wallet Landing Page
+UPDATE: use file slpofflineslpwif to generate private keys begining with "slp:<wif>". This ismeant to prevent non SLP enabled wallets from sweeping and burning tokens.
+  
+SLP Paper Wallet
 
-A client-side Bitcoin Cash (BCH) wallet generator producing customizable paper wallets.
+The SLP Paper Wallet Landing Page
+https://wallet.bitchslap.tech
+
+Video demonstration
+https://www.youtube.com/watch?v=-FlOgBjZ4pQ&t=0s
+
+Tutorial on how to change wallet templates
+https://www.youtube.com/watch?v=vqtSRXeKgxE
+
+A client-side Simple Ledger Protocol (SLP) wallet generator producing customizable paper wallets.
+SLP paper wallet generator was forked from the Bitcoin dot com paper wallet generator.
 
 The Bitcoin.com Paper Wallet is based on the open source [bitaddress.org repository.](https://github.com/pointbiz/bitaddress.org) Private Keys are generated client-side. For better security, download a local copy and run on an offline machine. 
 
@@ -14,3 +26,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+UPDATE FROM BRIANXV: Image templates provided in the original version contain licensed images. Please change templates to your own design in the case you reproduce the software.
